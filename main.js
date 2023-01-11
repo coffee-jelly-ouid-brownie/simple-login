@@ -40,7 +40,7 @@ let checks = {
   lengthCheck: false
 }
 
-// testing the conditions password must meet
+// Testing the password conditions
 if (numbers.test(userPassword)){
     checks.numCheck=true;
 }
